@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap CSS End -->
+    <style>
+      .top-buffer { margin-top: 50px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-buffer"></div>
+      <div class = "row d-flex justify-content-center">
+        <div class = "row">
+          <!-- Profile Picture and Account Label -->
+          <div class = "col">
+            <img src="images/blank.png" width="90" width="90">
+          </div>
+          <div class = "col pt-5">
+            <h2>Account</h2>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class = "row d-flex justify-content-center">
+        <form>
+          <div class="form-group">
+            <input type="text" class="form-control" id="nameInput" placeholder="Name">
+          </div>
+          <div class="form-group" data-provide="datepicker">
+             <input type="date" name="birthDay">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="addressInput" placeholder="Address">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="mobileInput" placeholder="Mobile Number">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" id="descriptionInput" placeholder="User Description"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary ml-4">Save Changes</button>
+        </form>
+      </div>
+    </div>
+    <!-- Bootstrap Framework Section -->
+    <script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Framework Section End -->
+  </body>
+</html>
